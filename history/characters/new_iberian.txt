@@ -1,0 +1,675 @@
+﻿1160000 = {
+	name = "Juan"
+	dynasty = 774
+	father = 457510
+	religion = catholic
+	culture = castilian
+	1358.8.24 = {
+		birth = yes
+	}
+	1390.10.9 = {
+		death = yes
+	}
+}
+
+1160001 = {
+	name = "Enrique"
+	dynasty = 774
+	father = 1160000
+	religion = catholic
+	culture = castilian
+	1379.10.4 = {
+		birth = yes
+	}
+	1406.2.9 = {
+		death = yes
+	}	
+}
+
+1160002 = {	#Ferdinand I of Aragon
+	name = "Fernando"
+	dynasty = 774
+	father = 1160000
+	religion = catholic
+	culture = castilian
+	trait = diligent
+	trait = content
+	trait = education_stewardship_4
+	1380.11.27 = {
+		birth = yes
+	}
+	1416.4.2 = {
+		death = yes
+	}	
+}
+
+1160003 = {	#Henri II of Castile
+	name = "Enrique"
+	dynasty = 774
+	father = 1160001
+	religion = catholic
+	culture = castilian
+	trait = cancer
+	1405.3.6 = {
+		birth = yes
+	}
+	1454.7.20 = {
+		death = yes
+	}	
+}
+
+1160004 = {	#Alfons V of Aragon
+	name = "Alfons"
+	dynasty = 774
+	martial = 9
+	diplomacy = 8
+	intrigue = 6
+	stewardship = 9
+	learning = 8
+	religion = catholic
+	culture = catalan
+	trait = ambitious
+	trait = diligent
+	trait = lustful
+	trait = education_martial_4
+	trait = adulterer
+	father = 1160002
+	1396.1.1 = {
+		birth = yes
+	}
+	1415.6.12 = {
+		add_spouse = 1150037
+	}
+	1444.5.30 = {
+		set_relation_friend = { reason = friend_generic_history target = character:1160008 }
+	}
+	1458.6.29 = {
+		death = yes
+	}	
+}
+
+1160005 = {	#John II of Aragon
+	name = "Joan"
+	dynasty = 774
+	trait = education_learning_3
+	trait = strong
+	father = 1160002
+	religion = catholic
+	culture = catalan
+	1397.6.29 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		add_spouse = 1160041
+	}
+	1444.1.1 = {
+		add_spouse = 1160040
+	}
+	1479.1.20 = {
+		death = yes
+	}	
+}
+
+1160006 = {	#Joan I of Aragon
+	name = "Joan"
+	dynasty = 100204
+	father = 460500
+	religion = catholic
+	culture = catalan
+	1350.12.27 = {
+		birth = yes
+	}
+	1396.5.19 = {
+		death = yes
+	}	
+}
+
+1160007 = { #Martin de Barcelona
+	name = "Martin"
+	dynasty = 100204
+	father = 460500
+	religion = catholic
+	culture = catalan
+	1356.7.29 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		add_spouse = 1160041
+	}
+	1410.5.31 = {
+		death = yes
+	}	
+}
+
+1160008 = {	#Ferdinand I of Naples
+	name = "Ferrante"
+	dynasty_house = house_trastamara_naples
+	father = 1160004
+	mother = 1160009
+	religion = catholic
+	culture = sicilian
+	trait = generous
+	trait = ambitious
+	trait = education_diplomacy_3
+	trait = bastard_founder
+	1424.6.2 = {
+		birth = yes
+	}
+	1444.5.30 = {
+		add_spouse = 1160010
+		add_pressed_claim = title:k_naples
+		set_relation_friend = { reason = friend_generic_history target = character:1160004 }
+	}
+	1494.1.25 = {
+		death = yes
+	}	
+}
+
+1160009 = {
+	name = "Giraldona"
+	female = yes
+	religion = catholic
+	culture = sicilian
+	1404.1.1 = {
+		birth = yes
+	}
+	1452.1.1 = {
+		death = yes
+	}
+}
+
+1160010 = {
+	name = "Isabella"
+	dynasty = clermont_lodeve
+	female = yes
+	religion = catholic
+	culture = sicilian
+	father = 1160014
+	mother = 1160015
+	1424.1.1 = {
+		birth = yes
+	}
+	1472.1.1 = {
+		death = yes
+	}
+}
+
+1160011 = {
+	name = "Alfonso"
+	dynasty_house = house_trastamara_naples
+	father = 1160008
+	mother = 1160010
+	religion = catholic
+	culture = sicilian
+	trait = bossy
+	trait = brave
+	1448.11.4 = {
+		birth = yes
+	}
+	1495.12.18 = {
+		death = yes
+	}
+}
+
+1160012 = {
+	name = "Eleanor"
+	dynasty_house = house_trastamara_naples
+	female = yes
+	father = 1160008
+	mother = 1160010
+	religion = catholic
+	culture = sicilian
+	1450.6.22 = {
+		birth = yes
+	}
+	1493.10.11 = {
+		death = yes
+	}
+}
+
+1160013 = {
+	name = "Frederick"
+	dynasty_house = house_trastamara_naples
+	father = 1160008
+	mother = 1160010
+	religion = catholic
+	culture = sicilian
+	1452.4.19 = {
+		birth = yes
+	}
+	1504.11.9 = {
+		death = yes
+	}
+}
+
+1160014 = {
+	name = "Tristan"
+	dynasty = clermont_lodeve
+	religion = catholic
+	culture = french
+	1380.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		add_spouse = 1160015
+	}
+	1432.1.1 = {
+		death = yes
+	}
+}
+
+1160015 = {
+	name = "Catherine"
+	dynasty = 2
+	female = yes
+	religion = catholic
+	culture = sicilian
+	father = 1160016
+	1380.1.1 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		add_spouse = 1160014
+	}
+	1429.1.1 = {
+		death = yes
+	}
+}
+
+1160016 = {
+	name = "Raimondo"
+	dynasty = 2
+	religion = catholic
+	culture = sicilian
+	1350.1.1 = {
+		birth = yes
+	}
+	1405.1.1 = {
+		death = yes
+	}
+}
+
+1160017 = {
+	name = "Giovanni"
+	dynasty = 2
+	religion = catholic
+	culture = sicilian
+	father = 1160016
+	1386.1.1 = {
+		birth = yes
+	}
+	1463.11.15 = {
+		death = yes
+	}
+}
+
+1160018 = { #Juan Alonso de Guzmán, 1st Duke of Medina Sidonia
+	name = "Juan"
+	dynasty = Guzman
+	religion = catholic
+	culture = castilian
+	1405.1.1 = {
+		birth = yes
+	}
+	1468.12.1 = {
+		death = yes
+	}
+}
+
+1160019 = {	#Juan Pacheco Marquess of Villena
+	name = "Juan"
+	dynasty = 7035
+	religion = catholic
+	culture = castilian
+	1405.1.1 = {
+		birth = yes
+	}
+	1468.12.1 = {
+		death = yes
+	}
+}
+
+1160020 = { #Álvaro de Luna y Fernández de Jarava #Duke of Badajoz
+	name = "A_lvaro"
+	dynasty = Luna
+	religion = catholic
+	culture = castilian
+	1390.1.1 = {
+		birth = yes
+	}
+	1453.12.1 = {
+		death = yes
+	}
+}
+
+1160021 = {	#Enrique IV of Castile 
+	name = "Enrique"
+	trait = chaste
+	trait = infertile
+	dynasty = 774
+	father = 1160003
+	religion = catholic
+	culture = castilian
+	1425.1.5 = {
+		birth = yes
+	}
+	1474.12.11 = {
+		death = yes
+	}
+}
+
+1160022 = {	#The catholic Monarchs
+	name = "Isabella"
+	dynasty = 774
+	female = yes
+	trait = intellect_good_1
+	father = 1160003
+	religion = catholic
+	culture = castilian
+	1451.4.22 = {
+		birth = yes
+	}
+	1504.11.26 = {
+		death = yes
+	}
+}
+
+1160023 = {	#Garcia de Toledo, 1st duke of Alba
+	name = "GarcI_a"
+	dynasty = de_Toledo
+	religion = catholic
+	culture = castilian
+	1424.1.1 = {
+		birth = yes
+	}
+	1488.6.1 = {
+		death = yes
+	}
+}
+
+1160024 = {	#Rodrigo Alonso Pimentel
+	name = "Rodrigo"
+	dynasty = Alonso_Pimentel
+	religion = catholic
+	culture = castilian
+	1440.1.1 = {
+		birth = yes
+	}
+	1490.1.1= {
+		death = yes
+	}
+}
+
+1160025 = {	#Diego Hurtado de Mendoza, 1st Duke of the Infantado
+	name = "Hurtado"
+	dynasty = Mendoza
+	father = 1150026
+	religion = catholic
+	culture = castilian
+	1417.9.25 = {
+		birth = yes
+	}
+	1479.1.25= {
+		death = yes
+	}
+}
+
+1150026 = {
+	name = "Inigo"
+	dynasty = Mendoza
+	religion = catholic
+	culture = castilian
+	1398.8.19 = {
+		birth = yes
+	}
+	1458.3.25 = {
+		death = yes
+	}
+}
+
+1150027 = { #Álvaro de Zúñiga y Guzmán Lord of Bejar, Plasencia, and Avilia
+	name = "A_lvaro"
+	dynasty = Zuniga
+	religion = catholic
+	culture = castilian
+	1410.1.1 = {
+		birth = yes
+	}
+	1488.6.10 = {
+		death = yes
+	}
+}
+
+1150028 = {#Pedro de Acuña y Carrillo de Albornoz Count of Cuenca
+	name = "Pedro"
+	dynasty = Acuna
+	religion = catholic
+	culture = castilian
+	1397.1.1 = {
+		birth = yes
+	}
+	1460.6.10 = {
+		death = yes
+	}
+}
+
+1150029 = {#Gastón de la Cerda y Sarmiento Count of Soria
+	name = "Gaston"
+	dynasty = la_Cerda
+	religion = catholic
+	culture = castilian
+	1414.1.1 = {
+		birth = yes
+	}
+	1454.6.10 = {
+		death = yes
+	}
+}
+
+1150030 = { #Don Pedro Manrique de Lara
+	name = "Pedro"
+	dynasty_house = house_lara 
+	religion = catholic
+	culture = castilian
+	1440.1.1 = {
+		birth = yes
+	}
+	1508.1.1 = {
+		death = yes
+	}
+}
+
+1150031 = {
+	name = "Juan"
+	dynasty = hijar
+	religion = catholic
+	culture = catalan
+	1419.1.1 = {
+		birth = yes
+	}
+	1491.11.27 = {
+		death = yes
+	}
+}
+
+1150032 = {
+	name = "Juan"
+	dynasty = de_cardona
+	religion = catholic
+	culture = catalan
+	1430.1.1 = {
+		birth = yes
+	}
+	1491.11.27 = {
+		death = yes
+	}
+}
+
+1150033 = {	#Imaginery Governor of Mallorca
+	name = "Luis"
+	religion = catholic
+	culture = catalan
+	1419.1.1 = {
+		birth = yes
+	}
+	1491.11.27 = {
+		death = yes
+	}
+}
+
+1150034 = {	#Viceory of Sardinia
+	name = "Francesc"
+	religion = catholic
+	culture = sardinian
+	1413.1.1 = {
+		birth = yes
+	}
+	1491.11.27 = {
+		death = yes
+	}
+}
+
+1150035 = {
+	name = "Lope"
+	religion = catholic
+	culture = catalan
+	1420.1.1 = {
+		birth = yes
+	}
+	1491.11.27 = {
+		death = yes
+	}
+}
+
+1150036 = {	#Leonora, bastard of King AlfonsoV
+	name = "Leonora"
+	dynasty = 774
+	trait = bastard
+	religion = catholic
+	culture = catalan
+	father = 1160004
+	1425.1.1 = {
+		birth = yes
+	}
+	1470.11.27 = {
+		death = yes
+	}
+}
+
+1160037 = { #Maria of Castile
+	name = "MarI_a"
+	dynasty = 774
+	religion = catholic
+	culture = castilian
+	female = yes
+	father = 1160001
+	1401.11.14 = {
+		birth = yes
+	}
+	1415.6.12 = {
+		add_spouse = 1160004
+	}
+	1458.9.4 = {
+		death = yes
+	}
+}
+
+1160038 = {	#Charles of Navarra
+	name = "Charles"
+	dynasty = 774
+	religion = catholic
+	culture = catalan
+	father = 1160005
+	mother = 1160041
+	trait = disinherited
+	1421.5.29 = {
+		birth = yes
+	}
+	1452.1.1 = {
+		set_relation_rival = { target = character:1160005 reason = rival_historical }
+	}
+	1461.9.23 = {
+		death = yes
+	}
+}
+
+1160039 = {	#Ferran of Aragon; the Cathloic Monarchs
+	name = "Ferran"
+	dynasty = 774
+	religion = catholic
+	culture = catalan
+	father = 1160005
+	mother = 1160040
+	trait = intellect_good_1
+	1452.3.10 ={
+		birth = yes
+	}
+	1516.1.23 = {
+		death = yes
+	}
+}
+
+1160040 = {
+	name = "Juana"
+	female = yes
+	dynasty = enriquez
+	religion = catholic
+	culture = catalan
+	1425.1.1 = {
+		birth = yes
+	}
+	1444.1.1 = {
+		add_spouse = 1160005
+	}
+	1468.2.13 = {
+		death = yes
+	}
+}
+1160041 = {	#Blanche II of Navarra
+	name = "Blanka"
+	female = yes
+	dynasty_house = house_evreux
+	religion = catholic
+	culture = basque
+	1387.7.6 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		add_spouse = 1160007
+	}
+	1420.1.1 = {
+		add_spouse = 1160005
+	}
+
+	1441.1.1 = {
+		death = yes
+	}
+}
+
+1160042 = { #Phillipa, duchess of Combria
+	name = "Philippa"
+	female = yes
+	dynasty_house = house_aviz
+	religion = catholic
+	culture = portuguese
+	1437.1.1 = {
+		birth = yes
+	}
+	1497.1.1 = {
+		death = yes
+	}
+}
+
+1160043 = {
+	name = "Afonso"
+	dynasty_house = house_aviz
+	religion = catholic
+	trait = zealous
+	culture = portuguese
+	1432.1.15 = {
+		birth = yes
+	}
+	1481.8.28 = {
+		death = yes
+	}	
+}

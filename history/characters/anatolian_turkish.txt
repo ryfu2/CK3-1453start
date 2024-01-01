@@ -1,0 +1,142 @@
+1110000 = {
+	name = "Mehmed"
+	dynasty = 7
+	religion = "ashari"
+	culture = "anatolian_turkish"
+	trait = ambitious
+	trait = brave
+	trait = wrathful
+	trait = education_martial_3
+	father = 1110005
+	1432.5.30 = {
+		birth = yes
+	}
+	1481.5.3 = {
+		death = yes
+	}
+}
+
+1110001 = {
+	name = "Bayezid"
+	dynasty = 7
+	religion = "ashari"
+	culture = "anatolian_turkish"
+	trait = brave
+	trait = wrathful
+	father = 476502 
+	trait = education_martial_4
+	1360.5.30 = {
+		birth = yes
+	}
+	1403.3.8 = {
+		death = yes
+	}
+}
+
+1110002 = {
+	name = "Suleyman"
+	dynasty = 7
+	religion = "ashari"
+	culture = "anatolian_turkish"
+	father = 1110001
+	1377.1.1 = {
+		birth = yes
+	}
+	1411.2.17 = {
+		death = yes
+	}
+}
+
+1110003 = {
+	name = "Musa"
+	dynasty = 7
+	religion = "ashari"
+	culture = "anatolian_turkish"
+	father = 1110001
+	1388.1.1 = {
+		birth = yes
+	}
+	1413.7.5 = {
+		death = yes
+	}
+}
+
+1110004 = {
+	name = "Mehmed"
+	dynasty = 7
+	religion = "ashari"
+	culture = "anatolian_turkish"
+	trait = education_martial_4
+	trait = ambitious
+	trait = diligent
+	father = 1110001
+	1386.1.1 = {
+		birth = yes
+	}
+	1421.5.26 = {
+		death = yes
+	}
+}
+
+1110005 = {
+	name = "Murad"
+	dynasty = 7
+	religion = "ashari"
+	culture = "anatolian_turkish"
+	trait = education_martial_4
+	trait = calm
+	trait = diligent
+	trait = zealous
+	father = 1110004
+	1404.6.1 = {
+		birth = yes
+	}
+	1451.2.3 = {
+		death = yes
+	}
+}
+
+1110005 = {
+	name = "Murad"
+	dynasty = 7
+	religion = "ashari"
+	culture = "anatolian_turkish"
+	trait = education_martial_4
+	trait = calm
+	trait = diligent
+	trait = zealous
+	father = 1110004
+	1404.6.1 = {
+		birth = yes
+	}
+	1451.2.3 = {
+		death = yes
+	}
+}
+
+1110006 = {
+	name = "Ahmed"
+	dynasty = 20089
+	religion = "ashari"
+	culture = "anatolian_turkish"
+	1414.6.1 = {
+		birth = yes
+	}
+	1461.2.3 = {
+		death = yes
+	}
+}
+
+1110007 = {
+	name = "Ibrahim"
+	dynasty = 12108
+	religion = "ashari"
+	culture = "anatolian_turkish"
+	1400.1.1 = {
+		birth = yes
+	}
+	1464.2.3 = {
+		death = yes
+	}
+}
+

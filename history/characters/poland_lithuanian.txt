@@ -1,0 +1,45 @@
+polish1000 = {  #Kazimieriz IV of Poland
+    name = "Kazimierz"
+    dynasty = 11
+    martial = 4
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 9
+    trait = calm
+    trait = education_diplomacy_3
+    religion = catholic
+    culture = polish
+    1427.11.30 = {
+        birth = yes
+    }
+    1492.6.7 = {
+        death = yes
+    }
+}
+
+polish1001 = {
+    name = "MikoL_aj"
+    dynasty = 699
+    religion = catholic
+    culture = polish
+    1424.1.1 = {
+        birth = yes
+    }
+    1476.7.3 = {
+        death = yes
+    }
+}
+
+polish1002 = {
+    name = "Konrad"
+    dynasty = 699
+    religion = catholic
+    culture = polish
+    1415.1.1 = {
+        birth = yes
+    }
+    1471.8.14 = {
+        death = yes
+    }
+}
+

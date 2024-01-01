@@ -1,0 +1,26 @@
+1190000 = {	#Doge of Genoa
+	name = "Pietrino"
+	dynasty = camposampiero
+	religion = "catholic"
+	culture = cisalpine
+	1417.1.1 = {
+		birth = yes
+	}
+	1459.9.14 = {
+		death = yes
+	}
+}
+
+1190001 = {	#Doge of Venice
+	name = "Francesco"
+	dynasty = Foscari
+	trait = strong
+	religion = "catholic"
+	culture = cisalpine
+	1373.6.19 = {
+		birth = yes
+	}
+	1457.11.1 = {
+		death = yes
+	}
+}

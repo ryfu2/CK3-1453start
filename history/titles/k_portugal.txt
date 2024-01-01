@@ -1,0 +1,7 @@
+k_portugal = {
+    867.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 11 }
+    1438.1.1 = {
+        holder = 1160043
+    }
+}

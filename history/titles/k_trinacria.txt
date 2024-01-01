@@ -1,0 +1,22 @@
+k_trinacria = {
+    867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1327.11.5 = {
+		holder = 460510 # Alfons IV d'Arag�
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV d'Arag�
+	}
+	1387.1.5 = {
+		holder = 1160006
+	}
+	1396.5.19 = {
+		holder = 1160007
+	}
+	1410.5.31 = {
+		holder = 1160002
+	}
+	1416.4.2 = {
+		holder = 1160004
+	}
+}

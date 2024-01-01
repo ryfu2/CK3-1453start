@@ -1,0 +1,10 @@
+k_naples = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	1443.11.11 = {
+		holder = 1160004
+	}
+	1444.5.30 = {
+		succession_laws = { feudal_elective_succession_law }
+	}
+}

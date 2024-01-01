@@ -1,0 +1,311 @@
+bavarian0005 = {	#Ladislaus the posthumous
+	name = "LA_szlO_"
+	dynasty_house = house_habsburg
+	religion = "catholic"
+	culture = bavarian
+    trait = sadistic
+    father = bavarian0014
+    intrigue = 3
+	1440.2.22 = {
+		birth = yes
+	}
+	1457.11.23 = {
+		death = yes
+	}
+}
+
+hungarian0001 = { #Jonas Hunyadi
+	name = "JA_nos"
+	dynasty = hunyadi
+    religion = catholic
+    culture = hungarian
+    diplomacy = 8
+    martial = 9
+    stewardship = 8
+    learning = 8
+    trait = education_martial_4
+    trait = brave
+    trait = diligent
+    trait = zealous
+    1406.1.1 = {
+        birth = yes
+    }
+    1450.1.1 = {
+        add_pressed_claim = title:k_hungary
+        add_pressed_claim = title:k_croatia
+    }
+    1456.8.11 = {
+        death = yes
+    }
+}
+
+hungarian0002 = {
+    name = "LA_szlO_"
+    religion = catholic
+    culture = hungarian
+    trait = stubborn
+    father = hungarian0001
+    1431.1.1 = {
+        birth = yes
+    }
+    1452.1.1 = {
+        effect = {
+            set_relation_potential_rival = character:bavarian0005
+        }
+    }
+    1457.3.16 = {
+        death = yes
+    }
+}
+
+hungarian0003 = {   #Matthias Corvinus
+    name = "MA_tyA_s"
+    religion = catholic
+    culture = hungarian
+    father = hungarian0001
+    martial = 7
+    stewardship = 7
+    diplomacy = 6 
+    trait = diligent
+    trait = ambitious
+    trait = bossy
+    1443.2.23 = {
+        birth = yes
+    }
+    1452.1.1 = {
+        effect = {
+            set_relation_potential_rival = character:bavarian0005
+        }
+    }
+    1490.4.6 = {
+        death = yes
+    }
+}
+
+hungarian0004 = {   #Nicolas Ujlaki
+    name = "MiklO_s"
+    dynasty = Ilok
+    culture = hungarian
+    religion = catholic
+    1410.1.1 ={
+        birth = yes
+    }
+    1480.1.1 = {
+        death = yes
+    }
+}
+
+croatian1000 = {    #Peter Talovac, Ban of Croatia
+    name = "Peter"
+    dynasty = Talovac
+    culture = croatian
+    religion = catholic
+    1400.1.1 = {
+        birth = yes
+    }
+    1453.8.1 = {
+        desth = yes
+    }
+}
+
+bavarian0006 = {    #Rudolf the founder
+    name = "Rudolf"
+   	dynasty_house = house_habsburg
+    culture = bavarian
+    religion = catholic
+    father = 462020
+    mother = 462033
+    1339.1.11 = {
+		birth = yes
+	}
+	1365.7.27 = {
+		death = yes
+	}
+}
+
+bavarian0007 = {    #Albert III, duke of Austria
+    name = "Albrecht"
+   	dynasty_house = house_habsburg
+    culture = bavarian
+    religion = catholic
+    father = 462020
+    mother = 462033
+    1349.9.9 = {
+		birth = yes
+	}
+	1395.8.29 = {
+		death = yes
+	}
+}
+
+bavarian0008 = {    #Leopold III, duke of Styria and Carinthia
+    name = "Leopold"
+   	dynasty_house = house_habsburg
+    culture = bavarian
+    religion = catholic
+    father = 462020
+    mother = 462033
+    1351.11.1 = {
+		birth = yes
+	}
+	1386.7.9 = {
+		death = yes
+	}
+}
+
+bavarian0009 = {    #Ernest, duke of Styria and Carinthias
+    name = "Ernest"
+    dynasty_house = house_habsburg
+    culture = bavarian
+    religion = catholic
+    father = bavarian0008
+    1377.1.1 = {
+		birth = yes
+	}
+	1424.6.10 = {
+		death = yes
+	}
+}
+
+bavarian0010 = {    #Frederick the empty pocket, duke of tyrol
+    name = "Friedrich"
+    dynasty_house = house_habsburg
+    culture = bavarian
+    religion = catholic
+    father = bavarian0008
+    1382.1.1 = {
+		birth = yes
+	}
+	1439.6.24 = {
+		death = yes
+	}
+}
+
+bavarian0011 = {    #Frederick III of HRE
+    name = "Friedrich"
+    dynasty_house = house_habsburg
+    culture = bavarian
+    religion = catholic
+    trait = calm
+    trait = temperate
+    trait = education_diplomacy_3
+    father = bavarian0009
+    1415.9.21 = {
+		birth = yes
+	}
+	1493.8.19 = {
+		death = yes
+	}
+}
+
+bavarian0012 = {#Sigismund, duke of tyrol
+    name = "Sigismund"
+    dynasty_house = house_habsburg
+    culture = bavarian
+    religion = catholic
+    father = bavarian0010
+    1427.10.26 = {
+		birth = yes
+	}
+	1496.3.4 = {
+		death = yes
+	}
+}
+
+bavarian0013 = {    #Albert V duke of Austria
+    name = "Albrecht"
+   	dynasty_house = house_habsburg
+    culture = bavarian
+    religion = catholic
+    father = bavarian0007
+    1377.9.19 = {
+		birth = yes
+	}
+	1404.9.14 = {
+		death = yes
+	}
+}
+bavarian0014 = {    #Albert II, HRE emperor
+    name = "Albrecht"
+   	dynasty_house = house_habsburg
+    culture = bavarian
+    religion = catholic
+    father = bavarian0013
+    1397.9.19 = {
+		birth = yes
+	}
+	1439.10.27 = {
+		death = yes
+	}
+}
+czech1000 = { #George of Podiebrad
+    name = "JiR_I_"
+    house = Podiebrad
+    culture = czech
+    religion = catholic #Hussite
+    1420.4.13 = {
+        birth = yes
+    }
+    1471.3.22 = {
+        death = yes
+    }
+}
+saxon1000 = {   #Frederich II, Elector of Brandenburg
+    name = "Frederich"
+    house = 12476
+    culture = saxon
+    religion = catholic
+    father = saxon1003
+    1413.11.19 = {
+        birth = yes
+    }
+    1441.1.1 = {
+        add_spouse = saxon1001
+    }
+    1471.2.10 = {
+        death = yes
+    }
+}
+saxon1001 = {   #Catherine of Saxon
+    name = "Catherine"
+    dynasty_house = house_wettin
+    female = yes
+    culture = saxon
+    religion = catholic
+    1421.1.1 = {
+        birth = yes
+    }
+    1441.1.1 = {
+        add_spouse = saxon1000
+    }
+    1476.8.23 = {
+        death = yes
+    }
+}
+
+saxon1002 = {   #Frederich Achilles
+    name = "Frederich"
+    house = 12476
+    culture = saxon
+    religion = catholic
+    father = saxon1003
+    1414.11.9 = {
+        birth = yes
+    }
+    1486.3.11 = {
+        death = yes
+    }
+}
+
+saxon1003 { #Frederich I of Brandenburg
+    name = "Frederich"
+    house = 12476
+    culture = saxon
+    religion = catholic
+    1371.9.21 = {
+        birth = yes
+    }
+    1440.9.20 = {
+        death = yes
+    }
+}

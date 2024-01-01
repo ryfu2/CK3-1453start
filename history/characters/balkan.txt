@@ -1,0 +1,250 @@
+1120000 = {
+	name = "Konstantinos"
+	dynasty = 48
+	martial = 9
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 9
+	learning = 8
+	religion = "orthodox"
+	culture = "greek"
+	trait = brave
+	trait = diligent
+	trait = zealous
+	trait = just
+	trait = education_stewardship_4
+	trait = born_in_the_purple
+	father = 1120002
+	1404.2.8 = {
+		birth = "1404.2.8"
+	}
+	1450.1.2 = {
+		add_spouse = 1130000
+	}
+	1464.6.15 = {
+		death = "1464.6.15"
+	}
+}
+
+1120001 = {
+	name = "Ioannes"
+	dynasty = 48
+	religion = "orthodox"
+	trait = born_in_the_purple
+	culture = "greek"
+	father = 1120002
+	1392.12.18 = {
+		birth = "1392.12.18"
+	}
+	1448.10.31 = {
+		death = "1448.10.31"
+	}
+}
+
+1120002 = {
+	name = "Manuel"
+	dynasty = 48
+	religion = "orthodox"
+	trait = born_in_the_purple
+	culture = "greek"
+	father = 1120003
+	1350.6.27 = {
+		birth = "1350.6.27"
+	}
+	1425.7.21 = {
+		death = "1425.7.21 "
+	}
+}
+
+1120003 = {
+	name = "Ioannes"
+	dynasty = 48
+	religion = "orthodox"
+	culture = "greek"
+	trait = born_in_the_purple
+	father = 465500
+	mother = 462157
+	1332.6.1 = {
+		birth = "1332.6.1"
+	}
+	1391.2.16 = {
+		death = "1391.2.16"
+	}
+}
+
+1120004 = {
+	name = "Demetrios"
+	dynasty = 48
+	religion = "orthodox"
+	culture = "greek"
+	trait = born_in_the_purple
+	father = 1120002
+	1407.1.1 = {
+		birth = "1407.1.1 "
+	}
+	1470.10.31 = {
+		death = "1470.10.31"
+	}
+}
+
+1120005 = {
+	name = "Thomas"
+	dynasty = 48
+	religion = "orthodox"
+	culture = "greek"
+	trait = born_in_the_purple
+	father = 1120002
+	1409.1.1 = {
+		birth = "1409.1.1"
+	}
+	1465.5.12 = {
+		death = "1465.5.12"
+	}
+}
+
+1120006 = {
+	name = "Theodoros"
+	dynasty = 48
+	religion = "orthodox"
+	culture = "greek"
+	trait = born_in_the_purple
+	father = 1120000
+	mother = 1130000
+	1452.5.29 = {
+		birth = "1452.5.29"
+	}
+	1510.5.12 = {
+		death = "1510.5.12"
+	}
+}
+
+1120007= {
+	name = "Philippos"
+	religion = "orthodox"
+	dynasty = 1022309
+	culture = "greek"
+	martial = 20
+	prowess = 20
+	trait = brave
+	trait = wrathful
+	trait = zealous
+	trait = holy_warrior
+	trait = military_engineer
+	trait = education_martial_5
+	trait = lifestyle_hunter
+	1414.3.1 = {
+		birth = "1414.3.1"
+	}
+	1470.5.12 = {
+		death = "1470.5.12"
+	}
+}
+
+1130000 = {
+	name = "Helena"
+	religion = "orthodox"
+	dynasty = 1022309
+	female = yes
+	culture = "greek"
+	brother = 1120007
+	1428.3.1 = {
+		birth = "1428.3.1"
+	}
+	1450.1.2 = {
+		add_spouse = 1120000
+	}
+	1470.5.12 = {
+		death = "1466.5.12"
+	}
+}
+
+1140000 = {
+	name = "Francesco"
+	dynasty = 10000000
+	religion = "catholic"
+	culture = "sicilian"
+	1440.3.1 = {
+		birth = "1428.3.1"
+	}
+	1470.5.12 = {
+		death = "1466.5.12"
+	}
+}
+
+1140001 = {
+	name = "Leonardo"
+	dynasty = 10000001
+	religion = "catholic"
+	culture = "sicilian"
+	1436.1.1 = {
+		birth = yes
+	}
+	1503.8.12 = {
+		death = yes
+	}
+}
+
+1120008 = { #Skanderbro
+	name = "Skanderberg"
+	religion = "catholic"
+	dynasty = 10000002
+	culture = "albanian"
+	martial = 15
+	prowess = 20
+	trait = brave
+	trait = gregarious
+	trait = diligent
+	trait = holy_warrior
+	trait = military_engineer
+	trait = education_martial_5
+	trait = lifestyle_hunter
+	1405.3.1 = {
+		birth = "1405.3.1"
+	}
+	1470.5.12 = {
+		death = "1470.5.12"
+	}
+}
+
+1120009 = {
+	name = "Durad"
+	religion = "orthodox"
+	dynasty = 10000003
+	culture = "serbian"
+	trait = gregarious
+	trait = honest
+	trait = calm
+	trait = education_diplomacy_2
+	1377.3.1 = {
+		birth = yes
+	}
+	1456.12.24 = {
+		death = "1456.12.24"
+	}
+}
+
+1120010 = {
+	name = "Stephen Thomas"
+	religion = "catholic"
+	dynasty = 10000004
+	culture = "bosnian"
+	1411.11.11 = {
+		birth = yes
+	}
+	1456.12.24 = {
+		death = "1456.12.24"
+	}
+}
+
+1120011 = {
+	name = "Alexios"
+	religion = "orthodox"
+	dynasty = 634
+	culture = "greek"
+	1411.11.11 = {
+		birth = yes
+	}
+	1456.12.24 = {
+		death = "1456.12.24"
+	}
+}
